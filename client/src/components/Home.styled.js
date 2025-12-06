@@ -36,6 +36,23 @@ export const DecorationsContainer = styled.div`
       height: 48%;
       margin-top: 28%;
       background-color: rgba(87, 89, 91, 0.5);
+      h1 {
+        padding-left: 10%;
+        padding-top: 5%;
+      }
+
+      div {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 3%;
+      }
+
+      button {
+        width: 25%;
+        margin-top: 2.5%;
+        margin-left: 10%;
+      }
     }
 
     .ourteam {
