@@ -14,14 +14,23 @@ function App() {
       primary: "#FF8F00",
       secondary: "#DFDFDF",
       tetiary: "rgba(0,0,0,0.7)",
-      text: "rgba(0,0,0,0.7)",
-      smallText: "rgba(0, 0, 0, 0.6)",
+
+      bigTextColor: "rgba(255,255,255,0.8)",
+      mediumTextColor: "#FF8F00",
+      smallTextColor: "rgba(255,255,255,0.6)",
     },
     size: {
-      small: "13px",
-      medium: "17px",
-      large: "22px",
-      extraLarge: "32px",
+      smallTextDesktop: "13px",
+      mediumTextDesktop: "17px",
+      largeTextDesktop: "22px",
+
+      samllTextTablet: "17px",
+      mediumTextTablet: "17px",
+      LargeTextMobile: "17px",
+
+      smallTextMobile: "22px",
+      mediumTextMobile: "22px",
+      largeTextMobile: "22px",
     },
   };
 
