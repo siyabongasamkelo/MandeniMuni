@@ -5,6 +5,7 @@ import styled from "styled-components";
 export const HeaderContainer = styled.header`
   width: 95%;
   height: 20%;
+  max-width: 2048px;
   margin-left: 2.5%;
   position: absolute;
 
@@ -14,12 +15,49 @@ export const HeaderContainer = styled.header`
   div {
     height: 10%;
   }
-  background-color: rgba(0, 0, 0, 0);
+
+  @media only screen and (min-width: 3830px) {
+    height: 10%;
+    margin-left: 1.8%;
+  }
+
+  @media only screen and (min-width: 7670px) {
+    height: 5%;
+    margin-left: 0.8%;
+  }
 `;
 
 export const Logo = styled.div`
   h3 {
     margin-left: 5%;
+  }
+  @media only screen and (min-width: 1014px) {
+    h3 {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (min-width: 1270px) {
+    h3 {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media only screen and (min-width: 1430px) {
+    h3 {
+      font-size: 1.6rem;
+    }
+  }
+
+  @media only screen and (min-width: 1910px) {
+    h3 {
+      font-size: 2rem;
+    }
+  }
+  @media only screen and (min-width: 1920px) {
+    h3 {
+      font-size: 2rem;
+    }
   }
 `;
 
@@ -32,11 +70,83 @@ export const Links = styled.div`
   h3:hover {
     color: ${(props) => props.theme.color.primary};
   }
+
+  @media only screen and (min-width: 1014px) {
+    h3 {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (min-width: 1270px) {
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media only screen and (min-width: 1430px) {
+    h3 {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media only screen and (min-width: 1910px) {
+    h3 {
+      font-size: 2rem;
+    }
+  }
+  @media only screen and (min-width: 1920px) {
+    h3 {
+      font-size: 2rem;
+    }
+  }
+  @media only screen and (min-width: 2038px) {
+  }
 `;
 
 export const Action = styled.div`
   width: 10%;
   button {
     margin-left: 5%;
+  }
+  @media only screen and (min-width: 1014px) {
+    button {
+      height: 40px;
+    }
+  }
+
+  @media only screen and (min-width: 1270px) {
+    button {
+      height: 40px;
+    }
+  }
+
+  @media only screen and (min-width: 1430px) {
+    button {
+      height: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 1910px) {
+    button {
+      height: 60px;
+    }
+  }
+
+  @media only screen and (min-width: 1920px) {
+    button {
+      height: 60px;
+    }
+  }
+
+  @media only screen and (min-width: 2038px) {
+    button {
+      width: 90%;
+    }
+  }
+
+  @media only screen and (min-width: 2550px) {
+    button {
+      margin-left: -45%;
+    }
   }
 `;
