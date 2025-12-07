@@ -1,6 +1,6 @@
 import React from "react";
 import { Action, HeaderContainer, Links, Logo } from "./Header.styled";
-import { LogoText } from "../Texts.styled";
+import { LogoText } from "./Texts.styled";
 import { Button } from "./Button.styled";
 
 const Header = () => {
