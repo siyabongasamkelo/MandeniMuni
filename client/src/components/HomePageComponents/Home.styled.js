@@ -6,6 +6,13 @@ export const HomeContainer = styled.div`
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.9);
+
+  @media only screen and (min-width: 240px) {
+    display: none;
+  }
+  @media only screen and (min-width: 1014px) {
+    display: block;
+  }
 `;
 
 export const HomeCover = styled.div`
