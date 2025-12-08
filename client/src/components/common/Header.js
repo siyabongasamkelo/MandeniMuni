@@ -2,6 +2,7 @@ import React from "react";
 import { Action, HeaderContainer, Links, Logo } from "./Header.styled";
 import { LogoText } from "./Texts.styled";
 import { Button } from "./Button.styled";
+import { List } from "react-bootstrap-icons";
 
 const Header = () => {
   return (
@@ -14,6 +15,7 @@ const Header = () => {
       </Links>
       <Action>
         <Button>Sign In</Button>
+        <List />
       </Action>
     </HeaderContainer>
   );
