@@ -16,6 +16,22 @@ export const HeaderContainer = styled.header`
     height: 10%;
   }
 
+  //Mobile devices
+
+  @media only screen and (min-width: 240px) {
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+  }
+
+  //Desktops
+
+  @media only screen and (min-width: 1014px) {
+    position: absolute;
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
   @media only screen and (min-width: 3830px) {
     height: 10%;
     margin-left: 1.8%;
@@ -71,7 +87,15 @@ export const Links = styled.div`
     color: ${(props) => props.theme.color.primary};
   }
 
+  //Mobile devices
+
+  @media only screen and (min-width: 240px) {
+    display: none;
+  }
+
+  //desktops
   @media only screen and (min-width: 1014px) {
+    display: block;
     h3 {
       font-size: 1rem;
     }
@@ -108,9 +132,37 @@ export const Action = styled.div`
   button {
     margin-left: 5%;
   }
-  @media only screen and (min-width: 1014px) {
+
+  //Mobile devices
+
+  @media only screen and (min-width: 240px) {
+    width: 50%;
     button {
+      width: 120px;
       height: 40px;
+      margin-left: 20%;
+      display: none;
+    }
+
+    svg {
+      transform: scale(250%);
+      fill: white;
+      margin-left: 70%;
+    }
+  }
+
+  //Desktop
+
+  @media only screen and (min-width: 1014px) {
+    width: 10%;
+    button {
+      display: block;
+      height: 40px;
+      width: 100%;
+      margin-left: 5%;
+    }
+    svg {
+      display: none;
     }
   }
 
