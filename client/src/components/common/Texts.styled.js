@@ -25,6 +25,12 @@ export const BigText = styled.h1`
     font-size: 3rem;
   }
 
+  // Tablet
+
+  @media only screen and (min-width: 800px) {
+    font-size: 5rem;
+  }
+
   //Desktop
 
   @media only screen and (min-width: 1014px) {
