@@ -12,6 +12,8 @@ export const HomeContainer = styled.div`
   }
   @media only screen and (min-width: 1014px) {
     display: block;
+    display: flex;
+    justify-content: center;
   }
 `;
 
