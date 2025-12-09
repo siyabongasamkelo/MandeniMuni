@@ -24,6 +24,12 @@ export const HeaderContainer = styled.header`
     position: relative;
   }
 
+  //Tablet
+
+  @media only screen and (min-width: 800px) {
+    height: 15%;
+  }
+
   //Desktops
 
   @media only screen and (min-width: 1014px) {
@@ -149,6 +155,11 @@ export const Action = styled.div`
       fill: white;
       margin-left: 70%;
     }
+  }
+
+  //Tablets
+
+  @media only screen and (min-width: 800px) {
   }
 
   //Desktop
