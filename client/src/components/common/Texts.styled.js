@@ -59,6 +59,20 @@ export const BigText = styled.h1`
   }
 `;
 
+export const MediumText = styled.h3`
+  font-family: "Kablammo";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* font-variation-settings: "MORF" 0; */
+  color: white;
+
+  @media only screen and (min-width: 1910px) {
+    font-size: 2rem;
+    text-align: center;
+  }
+`;
+
 export const SmallText = styled.p`
   font-family: "League Spartan";
   font-weight: normal;
