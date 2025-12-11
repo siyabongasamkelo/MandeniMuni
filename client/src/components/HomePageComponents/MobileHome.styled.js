@@ -9,6 +9,10 @@ export const MobileHomeContainer = styled.div`
     display: block;
   }
 
+  @media only screen and (min-width: 700px) {
+    display: none;
+  }
+
   @media only screen and (min-width: 1014px) {
     display: none;
   }
