@@ -27,8 +27,8 @@ export const BigText = styled.h1`
 
   // Tablet
 
-  @media only screen and (min-width: 800px) {
-    font-size: 5rem;
+  @media only screen and (min-width: 700px) {
+    font-size: 4rem;
   }
 
   //Desktop
@@ -107,12 +107,15 @@ export const SmallText = styled.p`
   }
 
   @media only screen and (min-width: 600px) {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
+  @media only screen and (min-width: 700px) {
+    font-size: 1.2rem;
+  }
   //Desktop
   @media only screen and (min-width: 1014px) {
-    font-size: 13px;
+    font-size: 0.8rem;
     text-align: left;
   }
 

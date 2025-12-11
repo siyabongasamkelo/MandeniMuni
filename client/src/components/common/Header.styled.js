@@ -26,7 +26,7 @@ export const HeaderContainer = styled.header`
 
   //Tablet
 
-  @media only screen and (min-width: 800px) {
+  @media only screen and (min-width: 700px) {
     height: 15%;
   }
 
