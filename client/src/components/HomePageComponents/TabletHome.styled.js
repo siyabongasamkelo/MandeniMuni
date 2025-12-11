@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const TabletHomeContainer = styled.div`
   height: 100vh;
   width: 100vw;
+  background-color: red;
   overflow-x: hidden;
+  overflow: hidden;
 
   @media only screen and (min-width: 240px) {
     display: none;
@@ -41,9 +43,9 @@ export const UpperContainer = styled.div`
     height: 30%;
     div {
       height: 100%;
-      width: 10%;
+      width: 7%;
       background: rgba(222, 26, 88, 0.3);
-      margin-left: 65%;
+      margin-left: 68%;
     }
   }
   .col2 {
@@ -68,7 +70,7 @@ export const HeroContainer = styled.div`
     margin-left: 10%;
 
     .paragraph {
-      height: 35%;
+      height: 30%;
       width: 100%;
       margin-top: 5%;
       background-color: rgba(87, 89, 91, 0.5);
@@ -85,17 +87,18 @@ export const HeroContainer = styled.div`
     button {
       width: 50%;
       margin-left: 25%;
-      margin-top: 10%;
+      margin-top: 5%;
       height: 60px;
       font-size: 1.5rem;
     }
     .socialmedia-icons {
-      width: 100%;
+      width: 80%;
       display: flex;
       justify-content: space-evenly;
       margin-top: 10%;
+      margin-left: 10%;
       svg {
-        transform: scale(250%);
+        transform: scale(200%);
         fill: white;
       }
     }
