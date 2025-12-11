@@ -27,6 +27,7 @@ const TabletHome = () => {
               <div></div>
             </div>
           </UpperContainer>
+
           <HeroContainer>
             <div className="hero-cover">
               <BigText>Mandeni Municipality</BigText>
