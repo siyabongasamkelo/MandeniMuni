@@ -15,6 +15,9 @@ export const HomeContainer = styled.div`
     display: flex;
     justify-content: center;
   }
+  @media only screen and (min-width: 2038px) {
+    height: auto;
+  }
 `;
 
 export const HomeCover = styled.div`
