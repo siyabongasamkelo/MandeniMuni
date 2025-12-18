@@ -1,22 +1,33 @@
 import React from "react";
-import { Action, HeaderContainer, Links, Logo } from "./Header.styled";
+import {
+  Action,
+  HeaderContainer,
+  HeaderCover,
+  Links,
+  Logo,
+} from "./Header.styled";
 import { LogoText } from "./Texts.styled";
-import { Button } from "./Button.styled";
-import { List } from "react-bootstrap-icons";
+import { Link } from "react-router-dom";
+// import { List } from "react-bootstrap-icons";
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <Logo>
-        <LogoText>Mandeni</LogoText>
-      </Logo>
-      <Links>
-        <LogoText>Menu</LogoText>
-      </Links>
-      <Action>
-        <Button>Sign In</Button>
-        <List />
-      </Action>
+      <HeaderCover>
+        <Logo>
+          <LogoText>Mandeni</LogoText>
+        </Logo>
+        <Links>
+          <Link>Home</Link>
+          <Link>About Us</Link>
+          <Link>Youth Employment</Link>
+          <Link>Contact Us</Link>
+        </Links>
+        <Action>
+          <div className="profile"></div>
+          {/* <List /> */}
+        </Action>
+      </HeaderCover>
     </HeaderContainer>
   );
 };
