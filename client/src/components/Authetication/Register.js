@@ -4,15 +4,17 @@ import {
   FormContent,
   MandeniYethuInfoContent,
   RegisterContainer,
+  RegisterContent,
   RegisterCover,
 } from "./Register.styled";
+import { Facebook, Google } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
     <RegisterContainer>
       <RegisterCover>
-        <RegisterCover>
+        <RegisterContent>
           <FormContent>
             <form className="cover">
               <MediumText>Create Account</MediumText>
@@ -60,13 +62,25 @@ const Register = () => {
 
                 <Button>Sign Up</Button>
                 <div class="divider">
-                  <span>OR sign in with</span>
+                  <span>Or sign in with</span>
+                </div>
+                <div className="alternate-logins">
+                  <Button>
+                    <Google />
+                    Google
+                  </Button>
+                  <Button>
+                    <Facebook />
+                    Facebook
+                  </Button>
                 </div>
               </div>
             </form>
           </FormContent>
-          <MandeniYethuInfoContent></MandeniYethuInfoContent>
-        </RegisterCover>
+          <MandeniYethuInfoContent>
+            <div className="cover"></div>
+          </MandeniYethuInfoContent>
+        </RegisterContent>
       </RegisterCover>
     </RegisterContainer>
   );

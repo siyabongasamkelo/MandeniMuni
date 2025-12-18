@@ -7,14 +7,12 @@ export const RegisterContainer = styled.div`
 export const RegisterCover = styled.div`
   height: 100vh;
   width: 100vw;
-  background-color: black;
 `;
 
 export const RegisterContent = styled.div`
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: space-between;
 `;
 
 export const FormContent = styled.div`
@@ -83,6 +81,12 @@ export const FormContent = styled.div`
         button {
           border-radius: 10px;
           margin-top: 2%;
+          background-color: #de1a58;
+          color: white;
+          height: 55px;
+          width: 100%;
+          border: none;
+          font-weight: bold;
         }
 
         .divider {
@@ -107,13 +111,37 @@ export const FormContent = styled.div`
         .divider:not(:empty)::after {
           margin-left: 10px;
         }
+
+        .alternate-logins {
+          display: flex;
+          justify-content: space-between;
+          button {
+            width: 48%;
+            svg {
+              margin-left: -10%;
+              margin-right: 5%;
+              transform: scale(150%);
+            }
+          }
+        }
       }
     }
   }
 `;
 
 export const MandeniYethuInfoContent = styled.div`
-  height: 100%;
-  width: 50%;
-  background-color: white;
+  @media only screen and (min-width: 1910px) {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cover {
+      width: 70%;
+      height: 80%;
+      background-color: red;
+    }
+  }
 `;
