@@ -2,11 +2,9 @@
 import styled from "styled-components";
 
 export const BigText = styled.h1`
-  font-family: "Kablammo";
-  font-optical-sizing: auto;
+  font-family: "Comforter", cursive;
   font-weight: 400;
   font-style: normal;
-  /* font-variation-settings: "MORF" 0; */
   font-size: 3.8rem;
   color: white;
 
@@ -47,7 +45,9 @@ export const BigText = styled.h1`
   }
 
   @media only screen and (min-width: 1910px) {
-    font-size: 3.8rem;
+    font-size: 7rem;
+    letter-spacing: 20px;
+    text-align: center;
   }
 
   @media only screen and (min-width: 1920px) {
@@ -141,11 +141,9 @@ export const SmallText = styled.p`
 `;
 
 export const LogoText = styled.h3`
-  font-family: "Kablammo";
-  font-optical-sizing: auto;
+  font-family: "Comforter", cursive;
   font-weight: 400;
   font-style: normal;
-  /* font-variation-settings: "MORF" 0; */
   font-size: 30px;
   color: white;
 `;
