@@ -12,7 +12,7 @@ import RegisterPage from "./pages/RegisterPage";
 function App() {
   const theme = {
     color: {
-      primary: "#FF8F00",
+      primary: "#DE1A58",
       secondary: "#DFDFDF",
       tetiary: "rgba(0,0,0,0.7)",
 
