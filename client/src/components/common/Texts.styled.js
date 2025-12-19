@@ -32,16 +32,16 @@ export const BigText = styled.h1`
   //Desktop
 
   @media only screen and (min-width: 1014px) {
-    font-size: 1.8rem;
-    text-align: left;
+    font-size: 5rem;
+    text-align: center;
   }
 
   @media only screen and (min-width: 1270px) {
-    font-size: 2.5rem;
+    font-size: 6rem;
   }
 
   @media only screen and (min-width: 1430px) {
-    font-size: 3.4rem;
+    font-size: 7rem;
   }
 
   @media only screen and (min-width: 1910px) {
@@ -55,7 +55,11 @@ export const BigText = styled.h1`
   }
 
   @media only screen and (min-width: 2038px) {
-    font-size: 4rem;
+    font-size: 7rem;
+  }
+
+  @media only screen and (min-width: 3840px) {
+    font-size: 10rem;
   }
 `;
 
@@ -138,6 +142,9 @@ export const SmallText = styled.p`
   @media only screen and (min-width: 2038px) {
     font-size: 20px;
   }
+
+  @media only screen and (min-width: 3840px) {
+  }
 `;
 
 export const LogoText = styled.h3`
@@ -146,4 +153,8 @@ export const LogoText = styled.h3`
   font-style: normal;
   font-size: 30px;
   color: white;
+
+  @media only screen and (min-width: 3840px) {
+    font-size: 5rem;
+  }
 `;
