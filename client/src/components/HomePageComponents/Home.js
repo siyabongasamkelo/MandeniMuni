@@ -22,12 +22,15 @@ const Home = () => {
             <div className="image">
               <img src={newphoto} alt="mandeni" />
             </div>
+
             <div className="big-text">
               <BigText>Mandeni Yethu Youth Empowerment</BigText>
             </div>
+
             <div className="button">
               <Button>Get Empowered</Button>
             </div>
+
             <div className="paragraph-members">
               <div className="paragraph">
                 <div className="text">
