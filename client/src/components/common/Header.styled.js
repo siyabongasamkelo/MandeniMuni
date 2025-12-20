@@ -1,8 +1,15 @@
-//this header is on the home component "from "../Home""
-//it is floatin because position : absolute was used
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
+  //------------------------Mobile Screen-----------------------------//
+  @media only screen and (min-width: 240px) {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  //--------------------------Desktop-------------------------------//
   @media only screen and (min-width: 1014px) {
     width: 100%;
     height: 10vh;
@@ -19,6 +26,17 @@ export const HeaderContainer = styled.header`
 `;
 
 export const HeaderCover = styled.div`
+  //------------------------Mobile Screen-----------------------------//
+  @media only screen and (min-width: 240px) {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  //--------------------------Desktop-------------------------------//
   @media only screen and (min-width: 1014px) {
     width: 100%;
     height: 100%;
@@ -41,7 +59,14 @@ export const HeaderCover = styled.div`
 export const Logo = styled.div``;
 
 export const Links = styled.div`
+  //------------------------Mobile Screen-----------------------------//
+  @media only screen and (min-width: 240px) {
+    display: none;
+  }
+
+  //--------------------------Desktop-------------------------------//
   @media only screen and (min-width: 1014px) {
+    display: block;
     display: flex;
     justify-content: space-between;
     width: 50%;
@@ -88,7 +113,25 @@ export const Links = styled.div`
 `;
 
 export const Action = styled.div`
+  //------------------------Mobile Screen-----------------------------//
+  @media only screen and (min-width: 240px) {
+    svg {
+      display: block;
+      fill: white;
+      transform: scale(300%);
+      margin-top: -200%;
+      margin-left: -100%;
+    }
+    .profile {
+      display: none;
+    }
+  }
+
+  //--------------------------Desktop-------------------------------//
   @media only screen and (min-width: 1014px) {
+    svg {
+      display: none;
+    }
     .profile {
       height: 50px;
       aspect-ratio: 1 / 1;
