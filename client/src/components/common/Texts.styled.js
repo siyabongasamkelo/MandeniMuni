@@ -12,15 +12,15 @@ export const BigText = styled.h1`
 
   @media only screen and (min-width: 230px) {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   @media only screen and (min-width: 360px) {
-    font-size: 1.8rem;
+    font-size: 4rem;
   }
 
   @media only screen and (min-width: 414px) {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   // Tablet
@@ -153,6 +153,10 @@ export const LogoText = styled.h3`
   font-style: normal;
   font-size: 30px;
   color: white;
+
+  @media only screen and (min-width: 240px) {
+    font-size: 1.5rem;
+  }
 
   @media only screen and (min-width: 3840px) {
     font-size: 5rem;
