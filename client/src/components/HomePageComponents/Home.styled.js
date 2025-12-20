@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const HomeContainer = styled.div``;
+export const HomeContainer = styled.div`
+  @media only screen and (min-width: 240px) {
+    display: none;
+  }
+`;
 
 export const HomeCover = styled.div`
   @media only screen and (min-width: 1014px) {
