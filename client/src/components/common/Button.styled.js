@@ -1,6 +1,17 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
+  //------------------------Mobile Screen-----------------------------//
+  @media only screen and (min-width: 360px) {
+    height: 50px;
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    background-color: ${(props) => props.theme.color.primary};
+    color: white;
+  }
+
+  //--------------------------Desktop-------------------------------//
   @media only screen and (min-width: 1014px) {
     height: 50px;
     width: 100%;
